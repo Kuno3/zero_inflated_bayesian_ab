@@ -22,7 +22,7 @@ where $\delta(y)$ is the Dirac delta function, and $\mathcal{LN}(\mu, \sigma^2)$
 \end{align*}
 ```
 
-where $\mathcal{B}(\alpha_A, \beta_A)$ denotes a Beta distribution, $\mathcal{N}(\theta, \sigma^2)$ represents a Normal distribution, and $mathcal{IG}(a, b)$ is an Inverse Gamma distribution.
+where $\mathcal{B}(\alpha_A, \beta_A)$ denotes a Beta distribution, $\mathcal{N}(\theta, \sigma^2)$ represents a Normal distribution, and $\mathcal{IG}(a, b)$ is an Inverse Gamma distribution.
 
 ## Installation
 
@@ -47,11 +47,11 @@ model.summary()
 
 ## API Reference
 
-### `zero_inflated_bayesian_ab(data_A, data_B, alpha_A,  alpha_B, beta_A, beta_B, theta_A, theta_B, lambda_A, lambda_B, a_A, a_B, b_A, b_B))`
+### `zero_inflated_bayesian_ab(data_A, data_B, alpha_A,  alpha_B, beta_A, beta_B, theta_A, theta_B, lambda_A, lambda_B, a_A, a_B, b_A, b_B)`
 
 - **data_A**: List or numpy array of observations from group A.
 - **data_B**: List or numpy array of observations from group B.
-- **, alpha_A, alpha_B, beta_A, beta_B, theta_A, theta_B, lambda_A, lambda_B, a_A, a_B, b_A, b_B**: (Optional) Parameters for priors.
+- **alpha_A, alpha_B, beta_A, beta_B, theta_A, theta_B, lambda_A, lambda_B, a_A, a_B, b_A, b_B**: (Optional) Parameters for priors.
 - **Returns**: An object containing posterior estimates and visualization methods.
 
 ### `sampling(num_samples)`
